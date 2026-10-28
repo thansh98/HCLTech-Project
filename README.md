@@ -8,28 +8,28 @@ GreenGrid is a production-ready, modular full-stack energy monitoring, billing, 
 
 ```text
 greengrid/
-├── frontend/             # React 19 + Vite + Tailwind CSS + Chart.js
+├── frontend/           
 │   ├── public/
 │   ├── src/
-│   │   ├── app/          # App root, router, providers
-│   │   ├── components/   # Common atomic UI, layout, chart components
-│   │   ├── features/     # Feature-driven modules (auth, meters, readings, etc.)
-│   │   ├── hooks/        # Custom React hooks
-│   │   ├── services/     # Centralized Axios API & auth storage
-│   │   ├── utils/        # Formatters & utilities
-│   │   └── constants/    # Routes, roles, API endpoints
+│   │   ├── app/         
+│   │   ├── components/   
+│   │   ├── features/     
+│   │   ├── hooks/       
+│   │   ├── services/     
+│   │   ├── utils/       
+│   │   └── constants/    
 │   ├── .env
 │   └── vite.config.js
 │
-├── backend/              # Django 6 + Django REST Framework
+├── backend/             
 │   ├── manage.py
 │   ├── config/
-│   │   ├── settings/     # Split settings (base, development, production)
+│   │   ├── settings/     
 │   │   ├── urls.py
 │   │   ├── asgi.py
 │   │   └── wsgi.py
-│   ├── apps/             # Domain apps (accounts, facilities, energy, etc.)
-│   ├── common/           # Shared permissions, pagination, exception handlers
+│   ├── apps/            
+│   ├── common/           
 │   └── requirements.txt
 │
 ├── README.md
